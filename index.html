@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jufurinitsuga</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="./images/myIcon.JPG">
+		<meta content="This is  my Templates that I developed">
+		<meta name="viewport" content="width-device-width , initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/smallscreen.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css">
+	</head>
+	<body>
+		<header>
+			<div class="toggle">
+				<i class="fa fa-bars menu"></i>
+				<img class="img-mobile" src="./images/navLogo.JPG" draggable="false" align="middle" id="img-mobil">
+			</div>
+			<ul>
+				<img class="img-Nav" src="./images/navLogo.JPG" draggable="false" align="middle" id="img-mob">
+				<li><a class="active" href="#">Home</a></li>
+				<li><a  href="#about">About</a></li>
+				<li><a  href="#projects">Projects</a></li>
+				<li><a  href="#contact">Contact</a></li>
+			</ul>
+		</header>
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+					$('.menu').click(function(){
+						$('ul').toggleClass('active');
+					})
+				})
+		</script>
+		<div class="img-header">
+			<img src="./images/me.jpg" class="img-header__photo-2">
+			<div class="img-header__one">
+				<h1 class="img-header__text">Hi!<br>I'm Jeffrey</h1>
+				<a href="myResume.pdf"><button class="btn-see">Download Resume</button></a>
+			</div>
+		</div>
+		<section>
+			<div id="about">
+				<div class="about__photo">
+					<img src="./images/technology-785742_1920.jpg"  class="about__img">
+				</div>
+				<div class="about__details">
+					<h1 class="about__details-heading">About Me</h1>
+					<p class="about__details-paragraph">I'm Jeffey Agustin Fresh Graduate from the University of Manila. I'm currently live in Malabon City. I passionate Web Design. </p>
+				</div>
+			</div>
+			<div id="projects">
+				<h1 class="projects__details-heading">Designs</h1>
+				<div class="center"  data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+					<div><img src="./images/homeUP.JPG" alt="slide-photo-1"></div>
+					<div><img src="./images/ajSound.JPG" alt="slide-photo-2"></div>
+					<div><img src="./images/gadget.jpg"  alt="slide-photo-3"></div>
+					<div><img src="./images/um-tmp1.png" alt="slide-photo-4"></div>
+					<div><img src="./images/iHosting.JPG" alt="slide-photo-5"></div>
+					<div><img src="./images/jscalcu.png"  alt="slide-photo-6"></div>
+				</div>
+				<a href="./designs.html"><button class="btn-view">View All</button></a>
+				
+			</div>
+		</section>
+		<footer id="contact">
+			<h3>Contact</h3>
+			<div class="footer-a">
+				<h5><img src="./images/message.png" class="icon-1"  align="middle"> jecagustin017@gmail.com</h5>
+			</div>
+			<div class="footer-b">
+				<h5><img src="./images/phone.png" class="icon-1"  align="middle">09560716459</h6>
+			</div>
+		</footer>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="javascript/slick.min.js"></script>
+		<script src="javascript/slick-slide.js"></script>
+		<script src="javascript/fade-animation.js"></script>
+	</body>
+</html>
