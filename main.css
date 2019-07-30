@@ -1,0 +1,251 @@
+html,body{
+background-color: #FFF;
+margin: 0em;
+font-family: sans-serif;
+scroll-behavior: smooth;
+}
+header{
+width: 100%;
+background-color: #17202A;
+text-align: right;
+position: fixed;
+z-index: 999;
+}
+ul{
+width: 100%;
+margin: 0 auto;
+padding: 0;
+}
+ul li{
+padding: 7px 32px;
+font-size: 1.5vw;
+color: #FFF;
+display: inline-block;
+padding-top: 12px;
+cursor: pointer;
+font-weight:normal;
+font-family:sans-serif;
+margin-top: .5vw;
+scroll-behavior: smooth;
+margin-bottom: 1vw;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+ul li a{
+text-decoration: none;
+text-align: right;
+color: #FFF;
+}
+ul li a:hover{
+color: #F4D03F;
+}
+.toggle{
+width: 100%;
+padding: 10px 20px;
+background-color: #F8F9F9;
+text-align: right;
+box-sizing: border-box;
+color: black;
+font-size: 5vw;
+display: none;
+}
+.img-Nav{
+height: 3vw;
+padding-top: 1px;
+padding-left: 2vw;
+padding-right: 2vw;
+cursor: pointer;
+margin-bottom: 1vw;
+float: left;
+margin-top: 1.2vw;
+}
+.img-header{
+height: 45vw;
+width: 100%;
+background-image: url('../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg');
+}
+.img-header__photo-2{
+margin-top: 10vw;
+float: right;
+margin-right: 10vw;
+border-radius: 90%;
+}
+.img-header__one{
+position: absolute;
+z-index: 100;
+margin: 0 auto;
+left: 0;
+right: 0;
+top: 10%;
+}
+.img-header__text{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 6vw;
+color: #FFF;
+margin-left: 7vw;
+}
+.btn-see{
+height: 4vw;
+width: 17vw;
+border-style: none;
+margin-left: 6vw;
+cursor: pointer;
+margin-top: 2vw;
+font-size: 2vw;
+font-family: 'Open Sans Condensed', sans-serif;
+outline: none;
+background-color: #E74C3C;
+color: #FFF;
+border-radius: 2px;
+}
+.btn-see:hover{
+background-color: #F4D03F;
+color: #000;
+}
+section{
+margin: 0;
+}
+#about{
+width: 100%;
+height: 48vw;
+display: inline-block;
+background: linear-gradient(100deg, white	 39%, #F4D03F 25%);
+}
+.about__photo{
+width: 50vw;
+float: left;
+height: 45vw;
+}
+.about__img{
+height: 26vw;
+width: 27vw;
+margin-top: 10vw;
+margin-left: 5vw;
+}
+.about__details{
+width: 48vw;
+float: left;
+height: 45vw;
+}
+.about__details-heading{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 3vw;
+color: #000;
+margin-top: 13vw;
+text-align: left;
+}
+.about__details-paragraph{
+margin-top: 4vw;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 1.5vw;
+}
+#projects{
+height:60vw;
+width: 100%;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,39,121,1) 0%, rgba(0,211,255,0.958420868347339) 77%);
+margin-top: -10;
+position: absolute;
+}
+.projects__details-heading{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 3vw;
+color: #000;
+margin-top: 5vw;
+margin-left: 46vw;
+position: absolute;
+}
+h2{
+text-align: center;
+}
+.center{
+margin-left: 15vw;
+margin-right: 9vw;
+position: absolute;
+width: 70vw;
+height: 30vw;
+margin-top: 10vw;
+background-color:#FFF;
+}
+.slider {
+max-width: 1000px;
+margin: 0 auto;
+}
+img {
+visibility: hidden;
+}
+.slick-slide img {
+width: 70vw;
+height: 30vw;
+border: 6px solid #fff;
+margin-bottom: 2vw;
+border-radius: 3px;
+}
+.fadeIn {
+-webkit-animation: animat_show 0.8s;
+animation: animat_show 0.8s;
+visibility: visible !important;
+}
+@-webkit-keyframes animat_show{
+0%{opacity:0}
+100%{opacity:1}
+}
+* {
+box-sizing: border-box;
+}
+.btn-view{
+height: 4vw;
+width: 17vw;
+border-style: none;
+margin-left: 40vw;
+cursor: pointer;
+font-size: 2vw;
+font-family: 'Open Sans Condensed', sans-serif;
+outline: none;
+background-color: #E74C3C;
+color: #FFF;
+border-radius: 2px;
+}
+.btn-view:hover{
+background-color: #F4D03F;
+color: #000;
+}
+#contact
+{
+display: inline-block;
+}
+footer{
+width: 100%;
+height: 250px;
+background-color: #5D6D7E;
+margin-top: 48vw;
+position: absolute;
+}
+h3{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 3vw;
+color: #000;
+margin-top: 1vw;
+margin-left: 46vw;
+position: absolute;
+}
+.icon-1{
+height: 6vw;
+width: 6vw;
+}
+h5{
+text-align:center;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 2vw;
+color: #000;
+}
+.footer-a{
+width:46vw;
+height: 7vw;
+margin-top: 5vw;
+float: left;
+}
+.footer-b{
+width:46vw;
+height: 7vw;
+margin-top: 5vw;
+float: left;
+}
