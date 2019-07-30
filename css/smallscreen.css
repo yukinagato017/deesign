@@ -1,0 +1,262 @@
+body{
+margin: 0em;
+}
+nav{
+width: 100%;
+background-color: #F8F9F9;
+text-align: right;
+}
+ul{
+width: 80%;
+margin: 0 auto;
+padding: 0;
+}
+ul li{
+padding: 7px 32px;
+font-size: 5.5vw;
+color: #000;
+display: inline-block;
+padding-top: 12px;
+cursor: pointer;
+font-weight:normal;
+font-family:sans-serif;
+margin-top: .5vw;
+text-align: center;
+}
+ul li a{
+text-decoration: none;
+text-align: center;
+color: #FFF;
+font-size: 8vw;
+}
+.toggle{
+width: 100%;
+padding: 10px 20px;
+background-color: #17202A;
+text-align: right;
+box-sizing: border-box;
+color: #FFF;
+font-size: 7vw;
+display: inline-block;
+}
+ul{
+width: 100%;
+display: none;
+}
+ul li{
+display: block;
+}
+.active{
+display: block;
+}
+
+.img-mobile{
+height: 6vw;
+width: 30vw;
+margin-top: 1vw;
+float: left;
+}
+.img-Nav{
+height: 3vw;
+padding-top: 1px;
+padding-left: 2vw;
+padding-right: 2vw;
+cursor: pointer;
+margin-bottom: 1vw;
+float: left;
+margin-top: 1.2vw;
+}
+.img-header{
+height: 100vw;
+width: 100%;
+background-size: cover;
+background-image: url('../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg');
+}
+.img-header__photo-2{
+margin-top: 20vw;
+height: 50vw;
+width: 50vw;
+margin-left: 25vw;
+position: absolute;
+border-radius: 90%;
+}
+.img-header__one{
+position: absolute;
+z-index: 100;
+margin: 0 auto;
+left: 0;
+right: 0;
+top: 10%;
+}
+.img-header__text{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 10vw;
+color: #FFF;
+margin-left: 7vw;
+margin-top: 60vw;
+}
+.btn-see{
+height: 9vw;
+width: 30vw;
+border-style: none;
+margin-left: 60vw;
+cursor: pointer;
+margin-top: -60px;
+font-size: 4vw;
+font-family: 'Open Sans Condensed', sans-serif;
+outline: none;
+background-color: #E74C3C;
+color: #FFF;
+border-radius: 2px;
+position: absolute;
+}
+.btn-see:hover{
+background-color: #F4D03F;
+color: #000;
+}
+section{
+margin: 0;
+}
+#about{
+width: 100%;
+height: 100vw;
+display: inline-block;
+background: linear-gradient(100deg, white    39%, #F4D03F 25%);
+}
+.about__photo{
+width: 50vw;
+float: left;
+height: 45vw;
+}
+.about__img{
+height: 56vw;
+width: 57vw;
+margin-top: 10vw;
+margin-left: 20vw;
+}
+.about__details{
+margin-top: 10vw;
+margin-left:6vw;
+width: 80vw;
+float: left;
+height: 35vw;
+}
+.about__details-heading{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 6vw;
+color: #000;
+margin-top: 13vw;
+text-align: center;
+}
+.about__details-paragraph{
+margin-top: 4vw;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 4vw;
+}
+#projects{
+height: 100vh;
+width: 100%;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,39,121,1) 0%, rgba(0,211,255,0.958420868347339) 77%);
+margin-top: -10;
+position: absolute;
+}
+.projects__details-heading{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 6vw;
+color: #000;
+margin-top: 5vw;
+margin-left: 38vw;
+position: absolute;
+}
+h2{
+text-align: center;
+}
+.center{
+margin-left: 15vw;
+margin-right: 9vw;
+position: absolute;
+width: 70vw;
+height: 30vw;
+margin-top: 16vw;
+}
+.slider {
+max-width: 1000px;
+margin: 0 auto;
+}
+img {
+visibility: hidden;
+}
+.slick-slide img {
+width: 70vw;
+height: 40vw;
+border: 6px solid #fff;
+margin-bottom: 2vw;
+border-radius: 3px;
+}
+.fadeIn {
+-webkit-animation: animat_show 0.8s;
+animation: animat_show 0.8s;
+visibility: visible !important;
+}
+@-webkit-keyframes animat_show{
+0%{opacity:0}
+100%{opacity:1}
+}
+* {
+box-sizing: border-box;
+}
+.btn-view{
+height: 9vw;
+width: 27vw;
+border-style: none;
+margin-top: 10vw;
+margin-left: 38vw;
+cursor: pointer;
+font-size: 5vw;
+font-family: 'Open Sans Condensed', sans-serif;
+outline: none;
+background-color: #E74C3C;
+color: #FFF;
+border-radius: 2px;
+}
+.btn-view:hover{
+background-color: #F4D03F;
+color: #000;
+}
+footer{
+width: 100%;
+height: 350px;
+background-color: #5D6D7E;
+margin-top: 78vw;
+position: absolute;
+}
+h3{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 7vw;
+color: #000;
+margin-top: 1vw;
+margin-left: 44vw;
+position: absolute;
+}
+.icon-1{
+height: 10vw;
+width: 10vw;
+}
+h5{
+text-align:center;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 5vw;
+color: #000;
+}
+.footer-a{
+width:100%;
+height: 17vw;
+margin-top: 15vw;
+float: left;
+}
+.footer-b{
+width:100%;
+height: 10vw;
+margin-top: 5vw;
+float: left;
+}
